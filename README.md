@@ -1,3 +1,7 @@
+**Language:** [English](README.md) | [Русский](README.RU.md)
+
+---
+
 # Overview
 This workflow aims for fully autonomous image generation. After the initial task input, the entire process of transforming that task into a final result is driven by LLMs, requiring no further human involvement.
 # Features
@@ -52,12 +56,12 @@ The workflow was tested using Gemma 4 26B A4B QAT, which performed the roles of 
 1. Drag and drop the .json file (available in the Releases section) onto the ComfyUI workspace.
    It should look like this:
    ![Общий вид](https://imgur.com/ngbvBK0.png)
-3. Navigate to the Workflow Configuration block.
+2. Navigate to the Workflow Configuration block.
    ![Блок настроек](https://imgur.com/1vbT09Z.png)
-4. In the Step 0 block, select your previously downloaded models. To find the exact LLM identifiers, visit: http://127.0.0.1:16001/v1/models
-5. Configure the workflow for your specific task using blocks Step 1 through Step 13. Each block contains its own set of instructions.
-6. Navigate to the Image block.
+3. In the Step 0 block, select your previously downloaded models. To find the exact LLM identifiers, visit: http://127.0.0.1:16001/v1/models
+4. Configure the workflow for your specific task using blocks Step 1 through Step 13. Each block contains its own set of instructions.
+5. Navigate to the Image block.
    ![Блок изображений](https://imgur.com/dHVq5FK.png)
-7. Add reference images if required.
-8. Run the workflow.
-9. Profit!
+6. Add reference images if required.
+7. Run the workflow.
+8. Profit!
